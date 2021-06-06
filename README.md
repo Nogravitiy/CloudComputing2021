@@ -18,7 +18,7 @@ A website with the following functionality needs to be developed
 - [x] the programming language is subject to the preferences of the implementer
 - [x] the code must exist as a Git repository
 - [x] a README.md has to be present, which guides users in setting up the shortener
-- [ ] the website should be started as a docker container    
+- [x] the website should be started as a docker container    
 
 ### Testing requirements
 These requirements need to be tested.
