@@ -39,3 +39,7 @@ This is used to provide short and unproblematic aliases (easier to remember, qui
 - [x] Run npm install -g nodemon --save-dev
 - [x] Run npm start dev to start the service locally or run docker-compose build and docker-compose up to start the docker container 
 - [x] Run npm test/{the required test} to start the unit tests 
+
+
+## Database 
+- [x] ToDo 
