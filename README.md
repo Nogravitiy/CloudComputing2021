@@ -37,9 +37,14 @@ This is used to provide short and unproblematic aliases (easier to remember, qui
 - [x] Open your editor and run npm install 
 - [x] Run npm install express body-parser mongoose fs
 - [x] Run npm install -g nodemon --save-dev
-- [x] Run npm start dev to start the service locally or run docker-compose build and docker-compose up to start the docker container 
-- [x] Run npm test/{the required test} to start the unit tests 
+- [x] Run npm install valid-url
+- [x] Run npm run start dev to start the service locally or run docker-compose build and docker-compose up to start the docker container 
+- [x] Run npm run test test/{the required test} to start the unit tests 
 
+## Tests
+- [x] Run npm run test test/unique_url.test.js to start unit test which tests if the code can create 1000 unique names 
+- [x] Run npm run test test/only_five_characters.test.js to start the unit test which checks if the shorturl is no more than 5 characters long
+- [x] Run npm run test test/valid_url.test.js to start the unit test which checks if the url is valid  
 
 ## Database 
-- [x] ToDo 
+- [x] there must be a mongo DB running localhoast:27017/url
