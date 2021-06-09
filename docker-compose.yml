@@ -1,0 +1,14 @@
+version: "2"
+services:
+  web:
+    environment: 
+      - MONGO_URI=mongodb://mongo:27017/url
+    build: .
+    ports:
+      - "3000:3000"
+    links:
+      - mongo
+  mongo:
+    image: mongo
+    ports:
+      - "27017:12017"
