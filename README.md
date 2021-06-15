@@ -45,6 +45,7 @@ This is used to provide short and unproblematic aliases (easier to remember, qui
 - [x] Run npm run test test/unique_url.test.js to start unit test which tests if the code can create 1000 unique names 
 - [x] Run npm run test test/only_five_characters.test.js to start the unit test which checks if the shorturl is no more than 5 characters long
 - [x] Run npm run test test/valid_url.test.js to start the unit test which checks if the url is valid  
+- [x] Run npm run test test/invalid_url.test.js to start the unit test which checks if the url is invalid 
 
 ## Database 
 - [x] there must be a mongo DB running localhoast:27017/url
